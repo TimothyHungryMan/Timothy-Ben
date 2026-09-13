@@ -24,17 +24,109 @@
             margin-bottom: 20px;
             padding-left: 4px;
         }
-        /* Two-column media grid layout matching your reference */
         .media-matrix {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 16px;
         }
-        /* Card frame container for each picture */
         .media-card {
             background-color: #090c10;
             border: 1px solid #161b22;
             border-radius: 6px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .media-img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            display: block;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-title">MEDIA ITEMS</div>
+
+    <div class="media-matrix">
+
+        <!-- SLOT 1 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/sMqOnQe_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 1">
+        </div>
+
+        <!-- SLOT 2 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/KlVtwdM_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 2">
+        </div>
+
+        <!-- SLOT 3 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/znd2wt4_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 3">
+        </div>
+
+        <!-- SLOT 4 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/1tY0LYb_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 4">
+        </div>
+
+        <!-- SLOT 5 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/78PdnP6_d.png?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 5">
+        </div>
+
+        <!-- SLOT 6 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/G8msZCB_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 6">
+        </div>
+
+        <!-- SLOT 7 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/ZFeLw5Y_d.png?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 7">
+        </div>
+
+        <!-- SLOT 8 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/ArhSneG_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 8">
+        </div>
+
+        <!-- SLOT 9 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/BrqjcRf_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 9">
+        </div>
+
+        <!-- SLOT 10 -->
+        <div class="media-card">
+            <img class="media-img"
+                 src="https://i.imgur.com/kuIICem_d.jpeg?maxwidth=520&shape=thumb&fidelity=high"
+                 alt="Photo 10">
+        </div>
+
+    </div>
+
+</body>
+</html>            border-radius: 6px;
             padding: 12px;
             display: flex;
             flex-direction: column;
